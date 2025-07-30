@@ -1,7 +1,9 @@
 # Reelforge - Development Tool
 
 ## Project Overview
-reelforge is a web application for creating, editing, and managing video projects. The app provides tools for project planning, video editing, and collaboration, making it easy for users to bring their creative ideas to life.
+**Live Application**: https://igor-kan.github.io/reelforge/
+
+ReelForge is an advanced AI-powered video content creation and editing platform that revolutionizes multimedia production through intelligent editing tools, automated content generation, collaborative workflows, and personalized creative assistance. Built with cutting-edge computer vision, audio processing, and machine learning technologies, ReelForge empowers content creators, filmmakers, and media professionals to produce high-quality video content with unprecedented efficiency and creative freedom.
 
 ## Technology Stack
 - **Framework**: Vite
@@ -96,4 +98,57 @@ reelforge/
 - Enhanced user experience features
 - API integrations
 - Mobile app development
+
+
+
+## 🧭 Claude Code Navigation
+
+### Quick Commands
+**Development Scripts:**
+- `dev`: vite
+- `build`: vite build
+- `lint`: eslint .
+- `deploy`: gh-pages -d dist
+
+**Key Files:**
+- `package.json` - Dependencies and scripts configuration
+- `README.md` - Project documentation and setup guide
+- `CLAUDE.md` - Comprehensive development guide for Claude
+- `vite.config.ts` - Vite build tool configuration
+- `tailwind.config.ts` - Tailwind CSS styling configuration
+- `tsconfig.json` - TypeScript compiler configuration
+- `components.json` - shadcn/ui components configuration
+
+**Key Directories:**
+- `src/` - Source code and main application logic
+- `public/` - Static assets (images, icons, etc.)
+
+**Claude Code Files:**
+- `.claude/project-context.md` - Project overview and structure
+- `.claude/coding-standards.md` - Development guidelines and patterns
+- `.claude/commands/` - Custom Claude commands for common tasks
+- `.claude/context/` - Domain-specific development context
+
+
+### Quick Reference
+
+**Common Tasks:**
+- Start development: `npm run dev` or `bun dev`
+- Build project: `npm run build` or `bun build`
+- Lint code: `npm run lint` or `bun lint`
+- Deploy: `npm run deploy` or `bun deploy`
+
+**File Patterns:**
+- Components: `components/**/*.tsx`
+- Pages: `app/**/*.tsx` or `pages/**/*.tsx`
+- Utilities: `lib/**/*.ts`
+- Styles: `**/*.css` or use Tailwind classes
+- Tests: `**/*.test.ts` or `**/*.spec.ts`
+
+**Development Tips:**
+- Use TypeScript for type safety
+- Follow existing component patterns
+- Utilize shadcn/ui components
+- Implement responsive design with Tailwind
+- Test changes before committing
 
